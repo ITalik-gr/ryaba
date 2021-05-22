@@ -1261,6 +1261,7 @@ Responsive
         // margin-right: 3px;
       }
       &__card {
+        z-index: 60;
         &__btn {
           font-size: 32px;
           padding: 5px 0px;
@@ -2010,7 +2011,7 @@ Responsive
       }
     }
     .video_btn {
-      font-size: 21.2px!important;
+      font-size: 24.2px!important;
       padding: 7px 0;
   }
     .product {

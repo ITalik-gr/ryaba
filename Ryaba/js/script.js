@@ -2,7 +2,11 @@ window.onload = () => {
 
     var openModalEntry = document.querySelectorAll(".open");
     var showModalEntry = document.querySelectorAll(".form");
+    var blockTxt = document.querySelectorAll(".block-txt");
     var closeModalEntry = document.querySelectorAll(".close");
+    var openText = document.querySelectorAll(".open-txt");
+    var closeText = document.querySelectorAll(".close-txt");
+
 
     for (var i = 0; i < openModalEntry.length; i++) {
         openModalEntry[i].addEventListener("click", function(event) {
@@ -17,6 +21,23 @@ window.onload = () => {
             showModalEntry[0].classList.remove("form-area-active");
         });
     };
+
+
+    for (var i = 0; i < openText.length; i++) {
+        openText[i].addEventListener("click", function(event) {
+            event.preventDefault();
+            blockTxt[0].classList.add("block-txt-active");
+        });
+    };
+
+    for (var i = 0; i < closeText.length; i++) {
+        closeText[i].addEventListener("click", function(event) {
+            event.preventDefault();
+            blockTxt[0].classList.remove("block-txt-active");
+        });
+    };
+    
+
 
 
     //By Vladislav Zhylenko
