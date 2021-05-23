@@ -877,8 +877,8 @@ body:after {
   margin-bottom: 20px!important;
 }
 .site-btn:hover {
-  box-shadow: black 2px 5px 20px -7px;
-  opacity: 0.8;
+  background: #045a22;
+  box-shadow: inset -7px -7px 14px #04491d, inset 7px 7px 14px #079639
 }
 .gift-1__right__btn:hover {
   background: #045a22;
