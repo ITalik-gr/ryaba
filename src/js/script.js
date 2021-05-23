@@ -79,18 +79,14 @@ window.onload = () => {
             //Active submit-button
             submit_button.disabled = false;
 
-            switch (this.status) {
-                case 201:
-                    result_Block.style.color = "#44944A";
-                    break;
-                case 400:
-                    result_Block.style.color = "#F13A13";
-                    if (window.grecaptcha) {
-                        grecaptcha.reset();
-                    }
-                    break;
+            if (this.status >= 200 && this.status < 300) {
+                result_Block.style.color = "#44944A";
+            } else {
+                result_Block.style.color = "#F13A13";
+                if (window.grecaptcha)
+                    grecaptcha.reset();
             }
-            result_Block.innerText = this.response;
+            result_Block.innerHTML = (this.status >= 500) ? "Час очікування відповіді сервера минув" : this.response;
         }
 
         xhr.send(data);

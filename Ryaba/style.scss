@@ -429,7 +429,7 @@ Header
     overflow: hidden;
     position: relative;
     height: 560px;
-    z-index: 21;
+
     &__image {
         &-abs {
             position: absolute;
@@ -439,7 +439,7 @@ Header
         }
     }
     &__wrap {
-        z-index: 3;
+      z-index: 100;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1261,6 +1261,7 @@ Responsive
         // margin-right: 3px;
       }
       &__card {
+        z-index: 60;
         &__btn {
           font-size: 32px;
           padding: 5px 0px;
@@ -1413,6 +1414,7 @@ Responsive
 
     .block-txt {
       margin: -180px 0px 180px 0px;
+      bottom: -164px;
     }
     .form {
       &-block {
@@ -1435,6 +1437,7 @@ Responsive
       margin-top: 0px;
     }
     .header {
+      height: 600px;
       &__image {
         &-abs {
           right: -170px;
@@ -1613,6 +1616,7 @@ Responsive
         padding: 30px 80px;
       }
     }
+
     .form {
       &-block {
         form {
@@ -1811,6 +1815,7 @@ Responsive
       z-index: 10000;
       justify-content: center;
       padding-right: 0;
+      bottom: -204px;
       ul {
         padding: 30px 55px;
         li {
@@ -2010,7 +2015,7 @@ Responsive
       }
     }
     .video_btn {
-      font-size: 21.2px!important;
+      font-size: 24.2px!important;
       padding: 7px 0;
   }
     .product {
