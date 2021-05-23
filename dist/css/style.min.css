@@ -743,6 +743,8 @@ body:after {
   color: #000
 }
 
+
+
 .close-txt {
   width: 30px;
   height: 30px;
@@ -858,7 +860,26 @@ body:after {
   background: #047f2f;
   box-shadow: inset -8px -8px 8px #036726, inset 8px 8px 8px #059738
 }
-
+.site-btn {
+  font-weight: 700;
+  padding: 9px 1px;
+  border-radius: 30px;
+  background: #047f2f;
+  color: #FFFF!important;
+  box-shadow: -4px 7px 6px 0 rgb(34 60 80 / 20%), inset -5px -5px 11px #024f1d, inset 5px 5px 11px #06af41;
+  transition: .4s all;
+  height: 70px;
+  width: 300px;
+  display: flex;
+  justify-content: center!important;
+  align-items: center;
+  margin-top: 60px!important;
+  margin-bottom: 20px!important;
+}
+.site-btn:hover {
+  box-shadow: black 2px 5px 20px -7px;
+  opacity: 0.8;
+}
 .gift-1__right__btn:hover {
   background: #045a22;
   box-shadow: inset -7px -7px 14px #04491d, inset 7px 7px 14px #079639
@@ -1318,7 +1339,7 @@ body:after {
 }
 
 .site-2 {
-  display: none!important;
+  display: none
 }
 
 .site:hover {
@@ -1442,23 +1463,6 @@ body:after {
 
 .footer__lion {
   font-size: 17px !important
-}
-
-.site-btn {
-  font-weight: 700;
-  padding: 9px 1px;
-  border-radius: 30px;
-  background: #047f2f;
-  color: #FFFF!important;
-  box-shadow: -4px 7px 6px 0 rgb(34 60 80 / 20%), inset -5px -5px 11px #024f1d, inset 5px 5px 11px #06af41;
-  transition: .3s all;
-  height: 70px;
-  width: 300px;
-  display: flex;
-  justify-content: center!important;
-  align-items: center;
-  margin-top: 60px!important;
-  margin-bottom: 20px!important;
 }
 
 @media (max-width:1400px) {
@@ -1602,7 +1606,7 @@ body:after {
   }
 
   .gift-1__card__image-1 img {
-    width: 110%
+    width: 130%
   }
 }
 
@@ -1716,12 +1720,12 @@ body:after {
   }
 
   .site {
-    display: none!important;
+    display: none
   }
 
   .site-2 {
-    display: flex!important;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 30px;
     color: #047f2f;
@@ -1783,7 +1787,7 @@ body:after {
   }
 
   .gift-1__card__image-1 img {
-    width: 88% !important
+    width: 118%!important;
   }
 
   .gift-1__card__image img {
@@ -2051,7 +2055,9 @@ body:after {
   .block-txt ul {
     padding: 30px 55px
   }
-
+  .site-btn {
+    font-size: 28px;
+  }
   .block-txt ul li {
     font-size: 20px
   }
@@ -2059,10 +2065,9 @@ body:after {
   .site-2 {
     margin-top: 10px;
     margin-bottom: -30px;
+    font-size: 25px
   }
-  .site-btn {
-    font-size: 28px;
-  }
+
   .form-title {
     font-size: 17px !important
   }
@@ -2395,9 +2400,6 @@ body:after {
   .site-2 {
     margin-bottom: -50px;
     font-size: 21px
-  }
-  .site-btn {
-    font-size: 28px;
   }
 }
 

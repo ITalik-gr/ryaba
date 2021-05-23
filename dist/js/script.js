@@ -40,6 +40,7 @@ window.onload = () => {
 
 
 
+
     //By Vladislav Zhylenko
 
     //Masked Inputs
