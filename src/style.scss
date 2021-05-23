@@ -1050,6 +1050,26 @@ Site
         color: #047f2f;
         text-decoration: none;
     }
+    .site-btn {
+      font-weight: 700;
+      padding: 9px 1px;
+      border-radius: 30px;
+      background: #047f2f;
+      color: #FFFF!important;
+      box-shadow: -4px 7px 6px 0 rgb(34 60 80 / 20%), inset -5px -5px 11px #024f1d, inset 5px 5px 11px #06af41;
+      transition: .4s all;
+      height: 70px;
+      width: 300px;
+      display: flex;
+      justify-content: center!important;
+      align-items: center;
+      margin-top: 60px!important;
+      margin-bottom: 20px!important;
+    }
+    .site-btn:hover {
+      background: #045a22;
+      box-shadow: inset -7px -7px 14px #04491d, inset 7px 7px 14px #079639;
+    }
 }
 
 /*================================================
@@ -1333,7 +1353,7 @@ Responsive
       }
       &-1 {
         img {
-          width: 110%;  
+          width: 130%;
         }
       }
   }
@@ -1499,7 +1519,7 @@ Responsive
       width: 160px;
       img {
         width: 110% !important;
-        top: -15px;
+        top: -14px;
       }
     }
     img {
@@ -1758,6 +1778,9 @@ Responsive
         margin-bottom: -30px;
         font-size: 25px;
       }
+    }
+    .site-btn {
+      font-size: 28px;
     }
     .form {
       &-title {
@@ -2080,6 +2103,10 @@ Responsive
     .site-2 {
       margin-bottom: -10px;
       font-size: 17px;
+  }
+  .site-btn {
+    height: 60px;
+    width: 210px;
   }
     .header {
       &-nav {

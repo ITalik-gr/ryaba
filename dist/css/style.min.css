@@ -700,7 +700,26 @@ body:after {
   box-shadow: -4px 7px 6px 0 rgba(34, 60, 80, .2), inset -5px -5px 11px #024f1d, inset 5px 5px 11px #06af41;
   transition: .3s all
 }
-
+.site-btn {
+  font-weight: 700;
+  padding: 9px 1px;
+  border-radius: 30px;
+  background: #047f2f;
+  color: #FFFF!important;
+  box-shadow: -4px 7px 6px 0 rgb(34 60 80 / 20%), inset -5px -5px 11px #024f1d, inset 5px 5px 11px #06af41;
+  transition: .4s all;
+  height: 70px;
+  width: 300px;
+  display: flex;
+  justify-content: center!important;
+  align-items: center;
+  margin-top: 60px!important;
+  margin-bottom: 20px!important;
+}
+.site-btn:hover {
+  background: #045a22;
+  box-shadow: inset -7px -7px 14px #04491d, inset 7px 7px 14px #079639
+}
 .header__btn:last-child {
   margin-right: 0
 }
@@ -742,8 +761,6 @@ body:after {
   font-size: 24px;
   color: #000
 }
-
-
 
 .close-txt {
   width: 30px;
@@ -860,26 +877,7 @@ body:after {
   background: #047f2f;
   box-shadow: inset -8px -8px 8px #036726, inset 8px 8px 8px #059738
 }
-.site-btn {
-  font-weight: 700;
-  padding: 9px 1px;
-  border-radius: 30px;
-  background: #047f2f;
-  color: #FFFF!important;
-  box-shadow: -4px 7px 6px 0 rgb(34 60 80 / 20%), inset -5px -5px 11px #024f1d, inset 5px 5px 11px #06af41;
-  transition: .4s all;
-  height: 70px;
-  width: 300px;
-  display: flex;
-  justify-content: center!important;
-  align-items: center;
-  margin-top: 60px!important;
-  margin-bottom: 20px!important;
-}
-.site-btn:hover {
-  background: #045a22;
-  box-shadow: inset -7px -7px 14px #04491d, inset 7px 7px 14px #079639
-}
+
 .gift-1__right__btn:hover {
   background: #045a22;
   box-shadow: inset -7px -7px 14px #04491d, inset 7px 7px 14px #079639
@@ -1606,7 +1604,7 @@ body:after {
   }
 
   .gift-1__card__image-1 img {
-    width: 130%
+    width: 110%
   }
 }
 
@@ -1787,7 +1785,7 @@ body:after {
   }
 
   .gift-1__card__image-1 img {
-    width: 118%!important;
+    width: 110% !important
   }
 
   .gift-1__card__image img {
@@ -1907,7 +1905,7 @@ body:after {
 
   .gift-1__card__image-1 img {
     left: 15px;
-    top: -45px;
+    top: -15px;
     width: 114%
   }
 
@@ -2050,14 +2048,15 @@ body:after {
     justify-content: center;
     padding-right: 0;
     bottom: -204px
+  } 
+  .site-btn {
+    font-size: 28px;
   }
 
   .block-txt ul {
     padding: 30px 55px
   }
-  .site-btn {
-    font-size: 28px;
-  }
+
   .block-txt ul li {
     font-size: 20px
   }
